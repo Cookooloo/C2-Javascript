@@ -21,3 +21,9 @@ section {
 .active {
     background-color: crimson;
 }
+
+#blokje {
+    height: 100px;
+    height: 100px;
+    background-color: red;
+}
