@@ -18,12 +18,12 @@ section {
     font-size: 60px;
 }
 
-.active {
-    background-color: crimson;
-}
+/*.active {*/
+/*    background-color: crimson;*/
+/*}*/
 
 #blokje {
     height: 100px;
     height: 100px;
-    background-color: red;
+    background-color: crimson;
 }

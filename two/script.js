@@ -25,7 +25,8 @@ document.onkeydown = function (event) {
             if(currentPosition == 4 || currentPosition == 9 || currentPosition == 14 || currentPosition == 19 || currentPosition == 24) {
                 //doe niks
             } else {
-                let newPosition = currentPosition + 1;
+                let newPosition = parseInt(currentPosition) + 1;
+                console.log(newPosition)
                 document.getElementById(newPosition).append(blokje);
             }
             console.log('Right key pressed');
@@ -34,7 +35,8 @@ document.onkeydown = function (event) {
             if(currentPosition == 20 || currentPosition == 21 || currentPosition == 22 || currentPosition == 23|| currentPosition == 24) {
                 //doe niks
             } else {
-                let newPosition = currentPosition + 5;
+                let newPosition = parseInt(currentPosition) + 5;
+                console.log(newPosition)
                 document.getElementById(newPosition).append(blokje);
             }
             console.log('Down key pressed');
